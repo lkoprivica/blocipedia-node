@@ -1,0 +1,22 @@
+{
+  "name": "blocipedia-node",
+  "version": "1.0.0",
+  "description": "An application for users to create wikis",
+  "main": "index.js",
+  "scripts": {
+    "test": "export Node ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkoprivica/blocipedia-node.git"
+  },
+  "keywords": [
+    "blocipedia"
+  ],
+  "author": "Lindsay Koprivica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkoprivica/blocipedia-node/issues"
+  },
+  "homepage": "https://github.com/lkoprivica/blocipedia-node#readme"
+}
