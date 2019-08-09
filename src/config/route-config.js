@@ -1,11 +1,9 @@
 module.exports = {
-    init(app){
+  init(app) {
+    const staticRoutes = require("../routes/static");
+    const userRoutes = require("../routes/users");
 
-      const staticRoutes = require("../routes/static");
-      const logger = require('morgan');
-
-
-      app.use(staticRoutes);
-      app.use(logger('dev'));
-    }
+    app.use(staticRoutes);
+    app.use(userRoutes);
   }
+};
