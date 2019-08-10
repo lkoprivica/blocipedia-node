@@ -1,5 +1,5 @@
 module.exports = {
-  validatePosts(req, res, next) {
+  validateUsers(req, res, next) {
     if (req.method === "POST") {
       req
         .checkParams("userId", "must be valid")
