@@ -17,6 +17,7 @@ module.exports = {
           User.findOne({
             where: { email }
           }).then(user => {
+            console.log(user)
             if (!user || !authHelper.comparePass(password, user.password)) {
               return done(null, false, {
                 message: "Invalid email or password"
